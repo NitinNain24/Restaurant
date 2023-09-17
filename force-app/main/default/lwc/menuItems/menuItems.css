@@ -1,0 +1,33 @@
+/* impressiveHeading.css */
+.heading-container {
+    text-align: center;
+}
+
+/* Style the impressive heading */
+.impressive-heading {
+    font-size: 36px;
+    color: #333;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s forwards, moveUp 1s forwards;
+    text-decoration: underline;
+}
+
+/* Define animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

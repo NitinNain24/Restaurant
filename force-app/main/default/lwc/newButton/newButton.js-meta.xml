@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <apiVersion>58.0</apiVersion> <!-- Use the appropriate API version for your org -->
+    <isExposed>true</isExposed> <!-- Set to true to expose the component to other Lightning components and Lightning pages -->
+
+    <targets>
+        <!-- Define the target Lightning pages where you want to add your component -->
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+
+</LightningComponentBundle>

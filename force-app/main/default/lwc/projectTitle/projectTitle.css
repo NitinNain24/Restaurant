@@ -1,0 +1,13 @@
+/* CSS to style the project title */
+.project-title-container {
+    background-color: #3498db; /* Background color for the title container */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Center-align the title */
+}
+
+.project-title {
+    font-size: 36px; /* Font size for the title */
+    font-weight: bold; /* Bold font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a stylish effect */
+}

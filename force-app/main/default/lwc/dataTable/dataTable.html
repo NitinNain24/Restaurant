@@ -1,0 +1,22 @@
+<template>
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <!-- Add more table headers for additional fields -->
+            </tr>
+        </thead>
+        <tbody>
+            <template for:each={tableData} for:item="record">
+                <tr key={record.Id}>
+                    <td>{record.Name}</td>
+                    <td>{record.Price__c}</td>
+                    <td>{record.Category__c}</td>
+                    <!-- Add more columns for additional fields -->
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</template>
