@@ -43,6 +43,3 @@ export default class CreateAccountRecord extends NavigationMixin(LightningElemen
         }
 
     }
-
-
-
